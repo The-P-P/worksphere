@@ -97,11 +97,28 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra no botão */
 }
 
-.btn.trial:hover {
+.btn.trial:hover {  
     background-color: rgba(127, 0, 255, 0.8); /* Cor de fundo mais forte ao passar o mouse */
     color: #fff; /* Texto branco */
     box-shadow: 0px 6px 12px rgba(127, 0, 255, 0.4); /* Sombra mais forte */
     transform: translateY(-2px); /* Leve elevação */
+}
+
+/* -------------------------
+   Botão na parte inferior: 'Encontre Profissionais'
+------------------------- */
+.btn.enroll {
+    background: linear-gradient(to right, #7f00ff, #e100ff); /* Gradiente vibrante */
+    color: #fff; /* Texto branco */
+    padding: 15px 40px; /* Tamanho confortável */
+    font-size: 1.2rem; /* Texto maior */
+    font-weight: bold; /* Destaque no texto */
+    border-radius: 100px; /* Bordas arredondadas */
+    cursor: pointer;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+    border: none; /* Remove borda padrão */
+    transition: all 0.3s ease; /* Animação suave ao interagir */
+    margin-top: 20px; /* Espaçamento acima do botão */
 }
 
 /* -------------------------
@@ -664,3 +681,30 @@ footer .footer-info ul li:hover {
         font-size: 0.9rem; /* Texto menor no footer */
     }
 }
+/* Estilização do link para baixar o PDF */
+.pdf-link {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 3rem; /* Tamanho do texto */
+    display: inline-flex; /* Alinhamento com o ícone */
+    align-items: center; /* Centraliza verticalmente o texto e o ícone */
+    gap: 5px; /* Espaçamento entre o ícone e o texto */
+    transition: all 0.3s ease; /* Suaviza a transição de cor */
+}
+
+.pdf-link:hover {
+    color: #7f00ff; /* Cor de destaque ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado no hover */
+}
+
+.pdf-link .material-icons {
+    font-size: 20px; /* Tamanho do ícone */
+    color: #fff; /* Cor do ícone */
+    transition: color 0.3s ease; /* Suaviza a mudança de cor */
+}
+
+.pdf-link:hover .material-icons {
+    color: #7f00ff; /* Cor do ícone no hover */
+}
+
